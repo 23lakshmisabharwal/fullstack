@@ -1,0 +1,178 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    color: #f26380;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .heading span {
+    font-weight: bold;
+  }
+  
+  /* Card Styling */
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .card input[type="radio"] {
+    margin-right: 1rem;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .card label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .unit {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .discount {
+    background-color: #f26380;
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  .pricing {
+    text-align: right;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+
+  .most-popular::after {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #f26380;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+  }
+  
+  /* Options Section */
+  .options {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .option-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .option-row select {
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Total and Add to Cart Section */
+  .total-section {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .delivery {
+    color: #f26380;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .add-to-cart {
+    background-color: #f26380;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e05070;
+  }
+  
+  .footer-note {
+    color: gray;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 0.5rem;
+  }
+  
+  /* Pink Border for Selected Card */
+.card input[type="radio"]:checked + label {
+    border: 2px solid #f26380;
+    border-radius: 5px;
+    padding: 0.4rem 0.9rem; /* Adjust padding to keep card consistent */
+  }
+  

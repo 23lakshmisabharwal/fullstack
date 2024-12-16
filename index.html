@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Heading -->
+    <h1 class="heading">YAY! It's <span>BOGO</span></h1>
+
+    <!-- Card 1 -->
+    <div class="card">
+      <input type="radio" id="unit1" name="units" checked>
+      <label for="unit1">
+        <div class="details">
+          <span class="unit">1 Unit</span>
+          <span class="discount">10% Off</span>
+        </div>
+        <div class="pricing">
+          <div class="price">$10.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Card 2 (Most Popular) -->
+    <div class="card most-popular">
+      <input type="radio" id="unit2" name="units">
+      <label for="unit2">
+        <div class="details">
+          <span class="unit">2 Unit</span>
+          <span class="discount">20% Off</span>
+        </div>
+        <div class="pricing">
+          <div class="price">$18.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+      <!-- Size and Colour Options -->
+      <div class="options">
+        <div class="option-row">
+          <label>Size:</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Red</option>
+          </select>
+        </div>
+        <div class="option-row">
+          <label>#2:</label>
+          <select>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <input type="radio" id="unit3" name="units">
+      <label for="unit3">
+        <div class="details">
+          <span class="unit">3 Unit</span>
+          <span class="discount">30% Off</span>
+        </div>
+        <div class="pricing">
+          <div class="price">$24.00 USD</div>
+          <div class="old-price">$24.00 USD</div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Total and Button -->
+    <div class="total-section">
+      <p class="delivery">Free Delivery</p>
+      <p class="total">Total : <span>$18.00 USD</span></p>
+      <button class="add-to-cart">Add to Cart</button>
+      <p class="footer-note">@ Powered by Pumper</p>
+    </div>
+  </div>
+</body>
+</html>
